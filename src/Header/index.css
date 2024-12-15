@@ -1,0 +1,32 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header-heading {
+  font-size: 50px;
+  font-weight: 700;
+}
+.cart-container {
+  position: relative;
+}
+.cart-count {
+  font-family: roboto;
+  font-size: 30px;
+  color: white;
+}
+.cart-count-container {
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-width: 0px;
+}
+.orders-head{
+  font-family: roboto;
+  font-size: 30px;
+  color: grey;
+  font-weight: 600;
+}

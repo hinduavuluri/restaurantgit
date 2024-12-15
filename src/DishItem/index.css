@@ -1,0 +1,45 @@
+.dish-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 8px;
+  border-color: grey;
+  padding: 30px;
+}
+.dish-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.controller-container {
+  background-color: green;
+  border-radius: 9px;
+  height: 30px;
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+  border-width: 0px;
+}
+.not-available-text {
+  color: red;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.text {
+  color: blueviolet;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.text-warning {
+  color: yellow;
+}
+.image {
+  height: 140px;
+  width: 145px;
+  border-radius: 6px;
+}
